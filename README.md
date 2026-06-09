@@ -15,7 +15,8 @@
   * `fare_amount`
   * `timestamp`
 * Displayed parsed records in the console using Structured Streaming.
-
+ - Screenshot included in `outputs/task_1/task1_output.png`
+   
 ### Task 2: Driver-Level Aggregations
 
 * Computed total fare amount for each driver.
