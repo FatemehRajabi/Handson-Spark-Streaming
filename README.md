@@ -1,5 +1,27 @@
 # Ride Sharing Analytics Using Spark Streaming and Spark SQL.
 ---
+
+Tasks Completed
+Task 1: Streaming Ingestion and Parsing
+Read streaming JSON data from localhost:9999.
+Parsed incoming records into structured columns:
+trip_id
+driver_id
+distance_km
+fare_amount
+timestamp
+Displayed parsed records in the console using Structured Streaming.
+Task 2: Driver-Level Aggregations
+Computed total fare amount for each driver.
+Computed average trip distance for each driver.
+Stored results as CSV files in outputs/task_2.
+Task 3: Windowed Time-Based Analytics
+Converted timestamps to TimestampType.
+Applied a 5-minute sliding window with a 1-minute slide interval.
+Calculated total fare amount for each time window.
+Stored results as CSV files in outputs/task_3.
+
+
 ## **Prerequisites**
 Before starting the assignment, ensure you have the following software installed and properly configured on your machine:
 1. **Python 3.x**:
